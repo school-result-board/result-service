@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="result-service.application.main" target="1.8" />
+      <module name="result-service.application.test" target="1.8" />
+      <module name="result-service.bootstrap.main" target="1.8" />
+      <module name="result-service.bootstrap.test" target="1.8" />
+      <module name="result-service.domain.main" target="1.8" />
+      <module name="result-service.domain.test" target="1.8" />
+      <module name="result-service.framework.main" target="1.8" />
+      <module name="result-service.framework.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
