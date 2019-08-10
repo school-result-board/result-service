@@ -1,0 +1,5 @@
+school-result-board:
+  score-service:
+    url: http://score-service
+  student-service:
+    url: http://student-service

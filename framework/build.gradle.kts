@@ -26,7 +26,6 @@ dependencies {
     runtimeOnly("com.h2database:h2")
     testImplementation("org.mockito:mockito-inline:2.23.4")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
-    implementation("org.flywaydb:flyway-core")
 //    compile("org.springframework.cloud:spring-cloud-starter-oauth2")
 //    compile("org.springframework.cloud:spring-cloud-starter-security")
 //    compile("org.springframework.cloud:spring-cloud-starter-sleuth")
