@@ -1,3 +1,10 @@
+spring:
+  application:
+    name: result-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://discovery-service/eureka/
 school-result-board:
   score-service:
     url: http://score-service

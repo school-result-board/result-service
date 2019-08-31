@@ -10,7 +10,7 @@ java.sourceCompatibility = JavaVersion.VERSION_1_8
 group = "com.zaid.hoona.result"
 version = "1.0-SNAPSHOT"
 extra["springBootVersion"] = "2.1.6.RELEASE"
-extra["springCloudVersion"] = "Greenwich.SR1"
+extra["springCloudVersion"] = "Greenwich.RELEASE"
 
 repositories {
     jcenter()
@@ -29,6 +29,7 @@ dependencies {
 //    compile("org.springframework.cloud:spring-cloud-starter-oauth2")
 //    compile("org.springframework.cloud:spring-cloud-starter-security")
 //    compile("org.springframework.cloud:spring-cloud-starter-sleuth")
+    implementation("org.springframework.cloud:spring-cloud-starter-netflix-eureka-client")
 }
 
 repositories {
@@ -38,7 +39,7 @@ repositories {
 dependencyManagement {
     imports {
         mavenBom("org.springframework.boot:spring-boot-starter-parent:${property("springBootVersion")}")
-//        mavenBom("org.springframework.cloud:spring-cloud-dependencies:${property("springCloudVersion")}")
+        mavenBom("org.springframework.cloud:spring-cloud-dependencies:${property("springCloudVersion")}")
     }
 }
 
